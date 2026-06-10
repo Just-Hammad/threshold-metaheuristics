@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "threshmh: exact and metaheuristic multilevel image thresholding"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: Hammad
+    given-names: Rana
+version: 0.1.0
+license: MIT
+abstract: >-
+  Multilevel Otsu and Kapur thresholding admit an exact O(C L^2)
+  dynamic-programming solution. This package implements that solver and
+  benchmarks four metaheuristics against it under a fixed evaluation budget,
+  with non-parametric statistical analysis.
+references:
+  - type: article
+    authors: [{family-names: Otsu, given-names: Nobuyuki}]
+    title: "A threshold selection method from gray-level histograms"
+    journal: "IEEE Transactions on Systems, Man, and Cybernetics"
+    year: 1979
+  - type: article
+    authors:
+      - {family-names: Kapur, given-names: J. N.}
+      - {family-names: Sahoo, given-names: P. K.}
+      - {family-names: Wong, given-names: A. K. C.}
+    title: "A new method for gray-level picture thresholding using the entropy of the histogram"
+    journal: "Computer Vision, Graphics, and Image Processing"
+    year: 1985
+  - type: article
+    authors:
+      - {family-names: Liao, given-names: Ping-Sung}
+      - {family-names: Chen, given-names: Tse-Sheng}
+      - {family-names: Chung, given-names: Pau-Choo}
+    title: "A fast algorithm for multilevel thresholding"
+    journal: "Journal of Information Science and Engineering"
+    year: 2001

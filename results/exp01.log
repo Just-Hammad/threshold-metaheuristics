@@ -1,0 +1,16 @@
+[runner] 14 images, 28000 runs
+[runner] 2000/28000
+[runner] 4000/28000
+[runner] 6000/28000
+[runner] 8000/28000
+[runner] 10000/28000
+[runner] 12000/28000
+[runner] 14000/28000
+[runner] 16000/28000
+[runner] 18000/28000
+[runner] 20000/28000
+[runner] 22000/28000
+[runner] 24000/28000
+[runner] 26000/28000
+[runner] 28000/28000
+[cli] wrote 28000 rows to results/exp01_runs.csv

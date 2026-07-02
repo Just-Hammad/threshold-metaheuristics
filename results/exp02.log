@@ -1,0 +1,8 @@
+[scaling] C=2  DP     3.35 ms cpu  skimage         1.19 ms cpu  agree=True
+[scaling] C=3  DP     4.88 ms cpu  skimage         2.20 ms cpu  agree=True
+[scaling] C=4  DP     4.93 ms cpu  skimage        73.62 ms cpu  agree=True
+[scaling] C=5  DP     6.38 ms cpu  skimage      5003.39 ms cpu  agree=True
+[scaling] C=6  DP     6.57 ms cpu  skimage    269033.79 ms cpu  agree=True
+[scaling] C=7  DP     6.83 ms cpu  skimage          nan ms cpu  agree=None
+[scaling] C=8  DP     7.78 ms cpu  skimage          nan ms cpu  agree=None
+[scaling] wrote results/exp02_scaling.csv

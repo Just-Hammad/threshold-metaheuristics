@@ -5,8 +5,11 @@ type: software
 authors:
   - family-names: Hammad
     given-names: Rana
+    affiliation: "NUST SEECS, Islamabad, Pakistan"
 version: 0.1.0
+repository-code: "https://github.com/Just-Hammad/threshold-metaheuristics"
 license: MIT
+date-released: "2026-09-16"
 abstract: >-
   Multilevel Otsu and Kapur thresholding admit an exact O(C L^2)
   dynamic-programming solution. This package implements that solver and

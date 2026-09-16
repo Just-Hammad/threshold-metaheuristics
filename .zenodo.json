@@ -1,0 +1,30 @@
+{
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "title": "threshmh: exact and metaheuristic multilevel image thresholding",
+  "description": "Multilevel Otsu and Kapur thresholding admit an exact O(C L^2) dynamic-programming solution. This package implements that solver and benchmarks four metaheuristics against it across 28,000 runs on 14 images at C in {2..6}, with the evaluation budget enforced inside the objective and non-parametric statistical analysis throughout. The exact solver returns the proven optimum in every case in 3.4 to 7.8 ms, flat in the number of classes; the metaheuristics reach it between 48 and 81 per cent of the time at C=6. Includes a MATLAB bridge and a comparison against scikit-image's threshold_multiotsu.",
+  "creators": [
+    {
+      "name": "Hammad, Rana",
+      "affiliation": "NUST SEECS, Islamabad, Pakistan"
+    }
+  ],
+  "keywords": [
+    "image thresholding",
+    "Otsu",
+    "Kapur",
+    "dynamic programming",
+    "metaheuristics",
+    "image segmentation",
+    "exact algorithms",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Just-Hammad/threshold-metaheuristics",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
